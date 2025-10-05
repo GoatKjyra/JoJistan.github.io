@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #111;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: linear-gradient(90deg, #800080, #c71585);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+}
+
+#search {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width: 200px;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+  background: #800080;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+/* 🔮 Karakter Kartları */
+.character-card {
+  background: #1e1e1e;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  transform: scale(1);
+}
+
+.character-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px #c71585;
+}
+
+.character-img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.stats {
+  margin-top: 10px;
+}
+
+.stat {
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.bar {
+  width: 100%;
+  height: 10px;
+  background-color: #333;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 10px;
+  background: linear-gradient(90deg, #800080, #c71585);
+}
+
+footer {
+  background: #000;
+  color: #999;
+  text-align: center;
+  padding: 10px;
+}
+
+/* 🌗 Light Mode */
+body.light {
+  background-color: #f0f0f0;
+  color: #222;
+}
+
+body.light header {
+  color: #fff;
+}
+
+body.light .character-card {
+  background: #fff;
+  color: #222;
+}
+
+body.light .bar {
+  background: #ddd;
+}
