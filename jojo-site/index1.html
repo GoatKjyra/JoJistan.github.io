@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JoJo Karakterleri - Ay Teması 🌙</title>
+  <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+  <audio id="bg-music" src="music/jojo_theme.mp3" loop></audio>
+
+  <header>
+    <h1> JoJo's Bizarre Adventure Stand Arşivi </h1>
+
+    <div class="top-controls">
+      <button id="theme-toggle">🌞 Tema: Ay</button>
+      <button id="music-toggle">🎵 Müzik: Kapalı</button>
+    </div>
+
+    <input type="text" id="searchInput" placeholder="Bir JoJo ara... (örn: Jotaro)" />
+  </header>
+
+  <h2>
+     <ul>
+         <li><a href="index.html">Karakter Arşivi</a></li>
+     </ul>
+  </h2>
+
+  <main>
+    <div class="character-container"></div>
+  </main>
+
+  <div id="popup" class="popup hidden">
+    <div class="popup-content">
+      <span class="close-btn">&times;</span>
+      <img id="popup-img" src="" alt="Karakter" />
+      <h2 id="popup-name"></h2>
+      <p id="popup-desc"></p>
+    </div>
+  </div>
+
+  <script src="script1.js"></script>
+</body>
+</html>
