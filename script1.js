@@ -53,6 +53,66 @@ const characters = [
     img: "images/wou.jpeg",
     desc: "Wonder of U (WOU), Toru’nun son derece tehlikeli Stand gücüdür ve “felaket yasası” prensibiyle çalışır. Bu Stand, kendisine zarar vermeye niyetlenen herkesi peş peşe gelen kazalarla cezalandırır, böylece saldırı imkânsız hale gelir. WOU aynı zamanda insan formunda görünebilir, bu da onun tespit edilmesini zorlaştırır. Uzak menzilli ve savunma ağırlıklı bir Stand olan Wonder of U, Jojolion döneminde kaderin değiştirilemezliğini temsil eder ve Joestar soyuna karşı en ölümcül tehditlerden biri olmuştur.",
   },
+  {
+    name: "Heavens Door",
+    part: "Diamond is Unbreakable:",
+    img: "images/heavens_door.jpeg",
+    desc: "Heaven’s Door, Rohan Kishibe’nin Stand gücüdür ve insanları kitap gibi açarak anılarını okuma ve değiştirme yeteneğine sahiptir. Bu Stand, hem bilgi toplamak hem de stratejik üstünlük sağlamak için kullanılır; düşmanlarının geçmişini ve planlarını açığa çıkarabilir veya onları manipüle edebilir. Yakın menzilli ve zekâ odaklı bir Stand olan Heaven’s Door, Rohan’ın sanatçı kişiliğiyle birleşerek hem savunma hem saldırı alanında yaratıcı biçimde kullanılmasını sağlar ve Diamond is Unbreakable döneminde Morioh’un en sıra dışı Stand güçlerinden biri olarak öne çıkar.",
+  },
+  {
+    name: "King Crimson",
+    part: "Golden Wind:",
+    img: "images/king_crimson.jpeg",
+    desc: "King Crimson, Diavolo’nun Stand gücüdür ve zamanı kısa süreliğine atlama yeteneğine sahiptir. Bu Stand, düşmanların hareketlerini öngörüp onları etkisiz hâle getirme konusunda son derece etkilidir ve yakın menzilde büyük fiziksel güç sunar. King Crimson, hem saldırı hem savunma alanında stratejik üstünlük sağlar ve Diavolo’nun acımasız ve zekice taktiklerini destekler. Golden Wind döneminde Joestar nesline karşı en ölümcül tehditlerden biri olmuş ve mafya dünyasında rakipsiz bir güç olarak öne çıkmıştır.",
+  },
+  {
+    name: "Made In Heaven",
+    part: "Stone Ocean:",
+    img: "images/made_in_heaven.jpeg",
+    desc: "Made in Heaven, Enrico Pucci’nin Stand’ının nihai formudur ve zamanı aşırı hızlandırma yeteneğine sahiptir. Bu Stand, evrendeki zamanı hızla ilerleterek olayların akışını değiştirebilir ve düşmanlarını neredeyse hiçbir şekilde etkisiz hale getiremez hâle getirir. Yakın ve uzun menzilde güçlü olan Made in Heaven, stratejik ve taktiksel üstünlüğü maksimuma çıkarır. Pucci, bu güçle Stone Ocean döneminde evrenin kaderini kontrol etmeyi amaçlamış ve Joestar soyuna karşı mutlak bir tehdit oluşturmuştur.",
+  },
+  {
+    name: "Ball Breaker",
+    part: "Steel Ball Run:",
+    img: "images/ball_breaker.jpeg",
+    desc: "Ball Breaker, Gyro Zeppeli’nin Stand gücüdür ve Spin enerjisini maksimum seviyede kullanarak devasa güç ve hız elde eder. Bu Stand, düşmanlarına karşı yıkıcı dönen saldırılar yapabilir ve Spin’in doğal enerji akışını manipüle ederek üstünlük sağlar. Yakın ve orta menzilde etkili olan Ball Breaker, Gyro’nun strateji ve zekâsıyla birleştiğinde neredeyse durdurulamaz hâle gelir. Steel Ball Run döneminde bu Stand, Gyro’nun mirasını ve Spin tekniğinin gücünü temsil etmiştir.",
+  },
+  {
+    name: "Silver Chariot",
+    part: "Stardust Crusaders:",
+    img: "images/silver_chariot.jpeg",
+    desc: "Silver Chariot, Jean Pierre Polnareff’in Stand gücüdür ve olağanüstü hız, çeviklik ve kılıç ustalığıyla tanınır. Zırhlı bir şövalye formuna sahip olan bu Stand, inanılmaz reflekslerle düşman saldırılarını savuşturabilir ve milisaniyelik isabetlerle karşı saldırıya geçebilir. Zırhını çıkardığında hızı daha da artar ancak savunması zayıflar. Stardust Crusaders döneminde Polnareff, Silver Chariot’u ustalıkla kullanarak dostlarını korumuş ve Joestar ekibinin en güvenilir savaşçılarından biri olmuştur.",
+  },
+  {
+    name: "Killer Queen",
+    part: "Diamond is Unbreakable:",
+    img: "images/killer_queen.jpeg",
+    desc: "Killer Queen, Yoshikage Kira’nın Stand gücüdür ve dokunduğu her şeyi patlayıcıya dönüştürme yeteneğine sahiptir. Zarif ama ölümcül bir görünüme sahip olan bu Stand, hem yakın dövüşte hem de uzaktan taktiksel saldırılarda etkilidir. Killer Queen’in ayrıca Sheer Heart Attack ve Bites the Dust adında iki alt yeteneği bulunur; biri ısıya duyarlı otomatik bomba, diğeri ise zamanı geri sararak Kira’yı koruyan bir güçtür. Diamond is Unbreakable döneminde Killer Queen, Morioh’un en tehlikeli tehdidi olmuştur.",
+  },
+  {
+    name: "Sticky Fingers",
+    part: "Golden Wind:",
+    img: "images/sticky_fingers.jpeg",
+    desc: "Sticky Fingers, Bruno Bucciarati’nin Stand gücüdür ve fermuar temelli yetenekleriyle tanınır. Bu Stand, yüzeylerde fermuarlar açarak nesneleri veya insanları parçalara ayırabilir, onları saklayabilir ya da birleştirebilir. Yakın menzilli dövüşte hızlı ve güçlüdür, hem saldırı hem savunmada esnek stratejiler sunar. Bucciarati, Sticky Fingers’ı zekice kullanarak düşmanlarını şaşırtmış ve Golden Wind döneminde takımının en güvenilir savaşçısı olmuştur.",
+  },
+  {
+    name: "Weather Report",
+    part: "Stone Ocean:",
+    img: "images/weather.jpeg",
+    desc: "Weather Report, Weather Report’un Stand’ıdır ve atmosferi kontrol etme gücüne sahiptir. Hava basıncını, nemi ve rüzgar akımlarını manipüle ederek yağmur, sis, hortum hatta oksijen yoğunluğunu bile değiştirebilir. Bu Stand, hem savunma hem saldırı yönünden son derece tehlikelidir; kullanıcı isterse düşmanını havasız bırakarak öldürebilir. Weather Report’un bastırılmış anıları geri döndüğünde, Stand’ının en ölümcül formu olan Heavy Weather ortaya çıkar ve gökkuşağı yoluyla insanları salyangozlara dönüştürür.",
+  },
+  {
+    name: "D4C (Dirty Deeds Done Dirt Cheap)",
+    part: "Steel Ball Run:",
+    img: "images/d4c.jpeg",
+    desc: "D4C (Dirty Deeds Done Dirt Cheap), Funny Valentine’ın Stand gücüdür ve paralel evrenler arasında geçiş yapma yeteneğine sahiptir. Bu Stand, farklı evrenlerdeki versiyonlarını çağırabilir ve onları kontrol ederek düşmanlarını şaşırtabilir veya yok edebilir. Yakın ve uzun menzilde stratejik üstünlük sağlayan D4C, neredeyse yenilmez bir avantaj sunar. Valentine, bu Stand’i zekice kullanarak Steel Ball Run döneminde Joestar soyuna ve rakiplerine karşı mutlak üstünlük sağlamış ve yarışın kaderini kendi lehine çevirmiştir.",
+  },
+  {
+    name: "Paisley Park",
+    part: "JoJolion:",
+    img: "images/paisley_park.jpeg",
+    desc: "Paisley Park, Yasuho Hirose’nin Stand gücüdür ve navigasyon ve yön bulma yeteneğiyle öne çıkar. Bu Stand, elektronik cihazlarla etkileşime girerek bilgi toplama, yol bulma ve tehlikeleri önceden tespit etme becerisi sağlar. Ayrıca Yasuho’nun çevresindeki olayları kontrol etmesine ve stratejik avantaj elde etmesine yardımcı olur. Yakın ve orta menzilde kullanışlı olan Paisley Park, Jojolion döneminde Yasuho’nun zekâsını ve yaratıcılığını güçlendirmiş, onu Joestar soyunun güvenilir müttefiklerinden biri hâline getirmiştir.",
+  },
 ];
 
 const container = document.querySelector(".character-container");

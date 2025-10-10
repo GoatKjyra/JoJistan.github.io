@@ -79,6 +79,118 @@ const characters = [
     stand: "images/wou.jpeg",
     standName: "Wonder of U"
   },
+  {
+    name: "Rohan Kishibe",
+    part: "Diamond is Unbreakable:",
+    img: "images/rohan.jpeg",
+    desc: "Rohan Kishibe, 1980’lerde Japonya’da doğmuş, Diamond is Unbreakable’ın önemli karakterlerinden biridir ve manga sanatçısıdır. Meraklı, zeki ve biraz kibirli bir karakter olan Rohan, Stand gücü Heaven’s Door’u kazanmış ve bu Stand ile insanları kitap gibi açıp anılarını okuyabilir, değiştirebilir veya yazabilir. Bu gücü hem bilgi toplamak hem de stratejik avantaj sağlamak için kullanır. Rohan, Morioh’u ve çevresindekileri korumak için gerektiğinde düşmanlarına karşı mücadele etmiş, zekâsı ve Stand yeteneğiyle JoJo evreninde eşsiz bir konuma sahip olmuştur.",
+    stand: "images/heavens_door.jpeg",
+    standName: "Heavens Door"
+  },
+  {
+  name: "Robert Speedwagon",
+    part: "Phantom Blood:",
+    img: "images/speed_wagon.jpeg",
+    desc: "Robert E. O. Speedwagon, 19. yüzyıl İngiltere’sinde doğmuş, Phantom Blood ve Battle Tendency dönemlerinde Jonathan ve Joseph Joestar’ın yakın dostu ve sadık müttefikidir. Cesur, fedakâr ve güçlü bir adalet duygusuna sahip olan Speedwagon, başlangıçta sokak çetesi lideriyken Joestar ailesiyle tanıştıktan sonra düşmanlara karşı savaşta stratejik destek ve lojistik yardım sağlamıştır. Daha sonra kendi şirketi Speedwagon Vakfı’nı kurarak, Joestar soyunun antik düşmanları ve doğaüstü tehditlerle mücadelede maddi ve bilimsel destek sunmuş, JoJo evreninde güvenilir bir müttefik olarak öne çıkmıştır.",
+    stand: "images/hamon.jpeg",
+    standName: "Yok (Hamon Kullanıcısı)"
+  },
+  {
+  name: "Caesar Zeppeli",
+    part: "Battle Tendency:",
+    img: "images/ceaser.jpeg",
+    desc: "Caesar Zeppeli, 1920’lerde İtalya’da doğmuş, Battle Tendency döneminin önemli karakterlerinden ve Joseph Joestar’ın yakın arkadaşıdır. Cesur, gururlu ve fedakâr bir karakter olan Caesar, Hamon (Ripple) enerjisi kullanıcısıdır ve halka şeklinde Hamon saldırıları ile düşmanlarını alt edebilir. Joseph ile birlikte Pillar Men’e karşı savaşmış, strateji ve cesaretiyle önemli katkılar sağlamıştır. Ailesinin Hamon geleneğini sürdüren Caesar, genç yaşta büyük fedakârlıklar yapmış ve Joestar ekibinin vazgeçilmez müttefiklerinden biri olmuştur.",
+    stand: "images/hamon.jpeg",
+    standName: "Yok (Hamon Kullanıcısı)"
+  },
+  {
+  name: "Diavolo",
+    part: "Golden Wind:",
+    img: "images/diavolo.jpeg",
+    desc: "Diavolo, 1980’lerde İtalya’da doğmuş, Golden Wind’in başantagonisti ve Passione mafyasının gizemli lideridir. Gizemli, acımasız ve stratejik bir karakter olan Diavolo, Stand gücü King Crimson’ı kazanmış ve bu Stand ile zamanı belli bir süre atlayarak düşmanlarının hareketlerini önceden tahmin edebilir ve onları etkisiz hale getirebilir. Mafya dünyasında düzeni kendi çıkarları doğrultusunda şekillendirmek için mücadele etmiş, rakiplerini hem güç hem zeka kullanarak alt etmiş ve Joestar soyunun yeni nesliyle çatışarak hikâyenin ana tehdidini oluşturmuştur.",
+    stand: "images/king_crimson.jpeg",
+    standName: "King Crimson"
+  },
+  {
+    name: "Enrico Pucci",
+    part: "Stone Ocean:",
+    img: "images/pucci.jpeg",
+    desc: "Enrico Pucci, 1970’lerde İtalya’da doğmuş, Stone Ocean’un başantagonisti ve DIO’nun yakın müritlerinden biridir. Kararlı, fanatik ve amansız bir karakter olan Pucci, Stand gücü Whitesnake’i kazanmış ve bu Stand ile insanlardan hafıza ve Stand yeteneklerini çalabilmiştir. Daha sonra Stand’ı C-Moon ve nihai formu Made in Heaven’a evrilmiş, zamanı hızlandırma gücüyle evrenin kaderini değiştirebilecek seviyeye ulaşmıştır. Pucci, hedefleri uğruna büyük fedakârlıklar yapmış, Joestar ailesine karşı strateji ve güç kullanarak Stone Ocean’un ana tehdidi haline gelmiştir.",
+    stand: "images/made_in_heaven.jpeg",
+    standName: "Made In Heaven"
+  },
+  {
+    name: "Gyro Zeppeli",
+    part: "Steel Ball Run:",
+    img: "images/gyro.jpeg",
+    desc: "Gyro Zeppeli, 1890’larda İtalya’da doğmuş, Steel Ball Run’ın başkahramanlarından biridir ve Spin tekniğinin ustasıdır. Kararlı, cesur ve stratejik bir karakter olan Gyro, dönen çelik toplar (Steel Balls) kullanarak hem saldırı hem savunma yapabilir ve Spin enerjisiyle çeşitli fiziksel ve mucizevi etkiler yaratabilir. Yarışta ve düşmanlarına karşı strateji ve zekâsını ustalıkla kullanmış, Johnny Joestar’a rehberlik etmiş ve Joestar soyunun mirasını Spin tekniğiyle kendi yolunda sürdürmüştür.",
+    stand: "images/ball_breaker.jpeg",
+    standName: "Ball Breaker"
+  },
+  {
+  name: "Will A. Zeppeli",
+    part: "Phantom Blood:",
+    img: "images/zeppeli.jpeg",
+    desc: "Will A. Zeppeli, 1800’lerin sonlarında İtalya’da doğmuş, Phantom Blood’un önemli karakterlerinden biridir ve Hamon sanatının ustalarındandır. Bilge, cesur ve fedakâr bir karakter olan Zeppeli, Jonathan Joestar’a Hamon’u öğretmiş ve vampir tehdidine karşı savaşta ona rehberlik etmiştir. Hamon’un yaşam enerjisini ustalıkla kullanarak hem saldırı hem savunmada üstünlük sağlamış, insanlığın iyiliği için kendini feda etmiştir. Zeppeli, Joestar soyunun ilk büyük müttefiklerinden biri olarak cesaret ve iradenin sembolü hâline gelmiştir.",
+    stand: "images/hamon.jpeg",
+    standName: "Yok (Hamon Kullanıcısı)"
+  },
+  {
+  name: "Kars",
+    part: "Battle Tendency:",
+    img: "images/kars.jpeg",
+    desc: "Kars, 10.000 yıldan daha eski bir zamanda doğmuş, Battle Tendency’nin başantagonisti ve Pillar Men lideridir. Zeki, acımasız ve kusursuzluğu arayan bir karakter olan Kars, Stone Mask’i yaratarak vampirliğin temelini oluşturmuştur. Nihai hedefi, mükemmel bir varlık olmaktı; bu amaçla Red Stone of Aja’yı kullanarak Ultimate Life Form hâline geldi. Tüm canlıların DNA’sını kontrol edebilme gücüne ulaşan Kars, sonunda uzaya savrularak ölümsüz bir yalnızlığa mahkûm olmuştur.",
+    stand: "images/kars_ulf.jpeg",
+    standName: "Yok (Ultimate Life Form)"
+  },
+  {
+    name: "Jean Pierre Polnareff",
+    part: "Stardust Crusaders:",
+    img: "images/pollnaref.jpeg",
+    desc: "Jean Pierre Polnareff, 1960’larda Fransa’da doğmuş, Stardust Crusaders’ın önemli kahramanlarından biridir. Cesur, gururlu ve bazen aceleci bir karakter olan Polnareff, kız kardeşinin intikamını almak için DIO’ya karşı Joestar ekibine katılmıştır. Stand gücü Silver Chariot, olağanüstü hız ve kılıç ustalığıyla hem saldırı hem savunmada etkileyici performans sergiler. Polnareff, dostluğa verdiği değer, inancı ve kararlılığıyla Joestar ailesinin en sadık müttefiklerinden biri hâline gelmiştir.",
+    stand: "images/silver_chariot.jpeg",
+    standName: "Silver Chariot"
+  },
+  {
+    name: "Yoshikage Kira",
+    part: "Diamond is Unbreakable:",
+    img: "images/kira.jpeg",
+    desc: "Yoshikage Kira, 1966’da Japonya’nın Morioh kasabasında doğmuş, Diamond is Unbreakable’ın başantagonistidir. Dışarıdan sakin ve sıradan görünen Kira, aslında saplantılı bir seri katildir ve tek arzusu huzurlu ama gizli bir hayat sürmektir. Stand gücü Killer Queen ile dokunduğu her şeyi patlayıcıya dönüştürür, bu da onu ölümcül ve iz bırakmayan bir tehdit haline getirir. Soğukkanlılığı, zekâsı ve takıntılı doğasıyla Kira, Joestar mirasının karşısındaki en zeki ve tehlikeli düşmanlardan biri olmuştur.",
+    stand: "images/killer_queen.jpeg",
+    standName: "Killer Queen"
+  },
+  {
+    name: "Bruno Bucciarati",
+    part: "Golden Wind:",
+    img: "images/bucciarati.jpeg",
+    desc: "Bruno Bucciarati, 1980’lerde İtalya’da doğmuş, Golden Wind’in ana karakterlerinden ve Giorno Giovanna’nın en yakın müttefiklerinden biridir. Cesur, adaletli ve lider ruhlu bir karakter olan Bucciarati, Stand gücü Sticky Fingers’ı kullanarak yüzeylerde fermuarlar açabilir, nesneleri veya insanları bu yolla bölüp birleştirebilir. Takım arkadaşlarını korumak ve yozlaşmış mafya düzenine karşı savaşmak için her şeyini ortaya koymuştur. Kararlılığı ve fedakârlığıyla Joestar mirasının en asil temsilcilerinden biri olmuştur.",
+    stand: "images/sticky_fingers.jpeg",
+    standName: "Sticky Fingers"
+  },
+  {
+    name: "Weather Report",
+    part: "Stone Ocean:",
+    img: "images/weather_report.jpeg",
+    desc: "Weather Report, 1980’lerde doğmuş, Stone Ocean döneminin önemli karakterlerinden biridir ve amnezik bir geçmişe sahiptir. Sessiz, sakin ve gizemli bir kişilik sergileyen Weather Report, hem zekâsı hem de Stand gücü Weather Report ile büyük stratejik avantaj sağlar. Amacı, geçmişini ve kimliğini keşfetmek, sevdiklerini korumak ve çevresindeki tehlikeleri önlemektir. Zamanla kendi iç dünyasıyla yüzleşmiş, Joestar soyunun müttefiklerinden biri olarak hikâyede kritik rol oynamıştır.",
+    stand: "images/weather.jpeg",
+    standName: "Weather Report"
+  },
+  {
+    name: "Funny Valentine",
+    part: "Steel Ball Run:",
+    img: "images/valentine.jpeg",
+    desc: "Funny Valentine, 1890’larda Amerika’da doğmuş, Steel Ball Run’ın başantagonistidir ve Amerika’nın başkanıdır. Hırslı, stratejik ve vatanına son derece bağlı bir karakter olan Valentine, Stand gücü D4C (Dirty Deeds Done Dirt Cheap) ile paralel evrenler arasında geçiş yapabilir ve farklı versiyonlarını kontrol edebilir. Bu yetenek, onu neredeyse yenilmez hâle getirir ve hedefleri uğruna büyük riskler almasını sağlar. Valentine, yarış ve Joestar soyuna karşı zekâsı ve güçleriyle büyük bir tehdit oluşturmuş ve Steel Ball Run’ın ana antagonistlerinden biri olmuştur.",
+    stand: "images/d4c.jpeg",
+    standName: "D4C (Dirty Deeds Done Dirt Cheap)"
+  },
+  {
+    name: "Yasuho Hirose",
+    part: "JoJolion:",
+    img: "images/hirose.jpeg",
+    desc: "Yasuho Hirose, 2010’larda Japonya’da doğmuş, JoJolion döneminin önemli karakterlerinden biridir ve Josuke Higashikata’ya yardımcı olur. Neşeli, meraklı ve kararlı bir kişilik sergileyen Yasuho, Stand gücü Paisley Park ile yön bulma, bilgi toplama ve teknolojiyi manipüle etme yeteneklerini kullanır. Amacı, Josuke ve sevdiklerini korumak, gizemleri çözmek ve kasabadaki tehlikeleri önlemektir. Zamanla kendi cesareti ve zekâsıyla hikâyede kritik bir rol oynamış, Joestar soyunun müttefiklerinden biri hâline gelmiştir.",
+    stand: "images/paisley_park.jpeg",
+    standName: "Paisley Park"
+  },
 ];
 
 const container = document.querySelector(".character-container");
