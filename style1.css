@@ -8,11 +8,10 @@
   --shadow: #5e00b3;
 }
 
-/* 🌞 Gündüz Teması */
 body.day {
   --bg-main: radial-gradient(circle at top, #ffeabf, #ffcf70);
-  --text-color: #1a0033;
-  --accent: #8e44ad;
+  --text-color: #af4c4c;
+  --accent: #d3d28f;
   --card-bg: rgba(255, 255, 255, 0.7);
   --shadow: #f8c471;
 }
@@ -106,7 +105,6 @@ h1 {
   color: var(--accent);
 }
 
-/* Popup */
 .popup {
   position: fixed;
   top: 0;
@@ -258,3 +256,21 @@ body {
   .part-section img, .character-card img { height: 150px; }
 }
 
+footer {
+  background-color: #0e0e0e;
+  color: #ccc;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  border-top: 1px solid #222;
+}
+
+footer .author {
+  color: #00b3ff;
+  font-weight: 600;
+}
+
+footer p {
+  margin: 0;
+}

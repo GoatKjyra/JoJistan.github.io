@@ -11,15 +11,15 @@ const characters = [
     name: "Joseph Joestar",
     part: "Battle Tendency:",
     img: "images/joseph.jpeg",
-    desc: "Joseph Joestar, 1920’lerde İngiltere’de doğmuş, Battle Tendency’nin başkahramanı ve Jonathan Joestar’ın torunudur. Zeki, kurnaz ve esprili bir karakter olan Joseph, gençliğinde Hamon (Ripple) enerjisiyle Pillar Men gibi antik düşmanlarla savaşmış ve stratejik dövüşlerde zekasını kullanmıştır. İlerleyen yıllarda Stand gücü Hermit Purple’ı kazanmış, fotoğraf çekmek, telekineziyle bilgi almak ve nesneleri sararak düşmanlarını kısıtlamak gibi yetenekler göstermiştir. Torunları ve diğer JoJo nesillerini desteklemiş, mizahı ve zekasıyla düşmanlarını şaşırtmayı sürdürmüş ve Hamon ile Stand kullanımını birleştiren nadir JoJo’lardandır.",
-    stand: "images/hermit_purple.jpeg",
-    standName: "Hermit Purple"
+    desc: "Joseph Joestar, 1920’lerde doğmuş, Battle Tendency döneminin başkahramanıdır ve Jonathan Joestar’ın torunudur. Zeki, alaycı ve kurnaz bir kişiliğe sahip olan Joseph, düşmanlarını kandırma ve stratejik düşünme yeteneğiyle tanınır. Hamon kullanıcısı olarak ustalaşmış, insanüstü refleksleri ve zekâsıyla Pillar Men olarak bilinen kadim varlıklara karşı savaşmıştır. Özellikle Caesar Zeppeli ve Lisa Lisa ile birlikte insanlığın kaderi için savaşan Joseph, mizahi tavrının altında güçlü bir kararlılık barındırır. Battle Tendency boyunca hem olgunlaşmış hem de Joestar soyunun kahramanlık mirasını sürdürmüştür.",
+    stand: "images/hamon.jpeg",
+    standName: "Yok (Hamon Kullanıcısı)"
   },
   {
     name: "Jotaro Kujo",
     part: "Stardust Crusaders:",
     img: "images/jotaro.jpeg",
-    desc: "Jotaro Kujo, 1960’larda Japonya’da doğmuş, Stardust Crusaders’ın başkahramanı ve Joseph Joestar’ın torunudur. Sert, soğukkanlı ve kararlı bir karakter olan Jotaro, Stand gücü Star Platinum’ı kazanmış ve üstün fiziksel güç, hız ve hassasiyetle düşmanlarını alt etmiştir. Stand’ıyla uzak mesafedeki nesneleri etkileyebilir, hızlı saldırılar yapabilir ve düşmanların hareketlerini durdurabilir. Ailesi ve sevdiklerini korumak için mücadele etmiş, yolculuk boyunca deneyimli ve stratejik bir lider olarak öne çıkmıştır. Kararlılığı ve gücü sayesinde Joestar neslinin efsanevi kahramanlarından biridir.",
+    desc: "Jotaro Kujo, Stardust Crusaders döneminin başkahramanıdır ve Joseph Joestar’ın torunudur. Soğukkanlı, ciddi ve güçlü bir kişiliğe sahip olan Jotaro, Stand gücü Star Platinum ile insanüstü hız, güç ve hassasiyet sergiler. Annesini kurtarmak ve DIO’nun Joestar soyuna olan lanetini bitirmek için arkadaşlarıyla birlikte Mısır’a doğru tehlikeli bir yolculuğa çıkar. Sert dış görünüşünün altında derin bir adalet duygusu ve ailesine bağlılık yatan Jotaro, sakin tavırları ve “Yare Yare Daze” sözüyle serinin en ikonik karakterlerinden biri olmuştur.",
     stand: "images/star_platinum.jpeg",
     standName: "Star Platinum"
   },
@@ -67,7 +67,7 @@ const characters = [
     name: "DIO",
     part: "Stardust Crusaders:",
     img: "images/dio.jpeg",
-    desc: "Dio Brando, 19. yüzyıl İngiltere’sinde doğmuş, Phantom Blood’un başantagonisti ve Jonathan Joestar’ın üvey kardeşidir. Hırslı, acımasız ve manipülatif bir karakter olan Dio, gençliğinde vampir güçleri kazanmış, olağanüstü hız, güç ve iyileşme yetenekleri elde etmiştir. Daha sonra Part 3’te, Stardust Crusaders’da Stand gücü The World’ü kazanmış ve zamanı durdurma yeteneği ile düşmanlarına karşı büyük bir üstünlük sağlamıştır. Jonathan ve sonraki Joestar nesilleriyle sürekli çatışmış, strateji ve acımasız taktikler kullanarak onları alt etmeye çalışmış ve zekâsı ile güçleri sayesinde Joestar ailesinin efsanevi düşmanı olarak tarihe geçmiştir.",
+    desc: "DIO, Stardust Crusaders döneminin başantagonistidir ve Joestar soyunun en büyük düşmanıdır. Jonathan Joestar’ın bedenini ele geçirdikten sonra yıllarca gizlenmiş, ardından The World adlı Stand gücünü kazanmıştır. Bu Stand, zamanı birkaç saniyeliğine durdurabilir ve DIO’ya mutlak üstünlük sağlar. Kibirli, karizmatik ve acımasız bir kişiliğe sahip olan DIO, ölümsüzlüğünü ve gücünü mutlak hâkimiyete dönüştürmek ister. Jotaro ve ekibine karşı verdiği destansı savaşta Joestar mirasıyla yeniden yüzleşir ve sonunda kendi hırsının kurbanı olur.",
     stand: "images/the_world.jpeg",
     standName: "The World"
   },
@@ -190,6 +190,134 @@ const characters = [
     desc: "Yasuho Hirose, 2010’larda Japonya’da doğmuş, JoJolion döneminin önemli karakterlerinden biridir ve Josuke Higashikata’ya yardımcı olur. Neşeli, meraklı ve kararlı bir kişilik sergileyen Yasuho, Stand gücü Paisley Park ile yön bulma, bilgi toplama ve teknolojiyi manipüle etme yeteneklerini kullanır. Amacı, Josuke ve sevdiklerini korumak, gizemleri çözmek ve kasabadaki tehlikeleri önlemektir. Zamanla kendi cesareti ve zekâsıyla hikâyede kritik bir rol oynamış, Joestar soyunun müttefiklerinden biri hâline gelmiştir.",
     stand: "images/paisley_park.jpeg",
     standName: "Paisley Park"
+  },
+  {
+    name: "Joseph Joestar",
+    part: "Stardust Crusaders:",
+    img: "images/joseph3.jpeg",
+    desc: "Joseph Joestar, Stardust Crusaders döneminde artık yaşlanmış ama hâlâ zeki ve esprili bir kahramandır. Eskiden Hamon ustası olan Joseph, bu kez Stand gücü Hermit Purple’ı kullanarak fotoğraflar aracılığıyla uzak yerleri görebilir ve bilgi toplayabilir. Torunu Jotaro Kujo ile birlikte Mısır’a uzanan uzun bir yolculuğa çıkarak DIO’nun tehdidine son vermeyi amaçlar. Yaşına rağmen cesur ve stratejik düşünmeye devam eden Joseph, ekibin akıl hocası ve kalbi olarak önemli rol oynar. Deneyimi, zekâsı ve mizahıyla Joestar soyunun kararlılığını bir kez daha kanıtlamıştır.",
+    stand: "images/hermit_purple.jpeg",
+    standName: "Hermit Purple"
+  },
+  {
+    name: "Jotaro Kujo",
+    part: "Diamond is Unbreakable:",
+    img: "images/jotaro4.jpeg",
+    desc: "Jotaro Kujo, Diamond is Unbreakable döneminde deneyimli bir okyanus biyoloğu ve olgun bir savaşçıdır. Artık daha sakin ve bilge bir karaktere dönüşen Jotaro, genç Joestar nesline rehberlik ederken hâlâ Star Platinum’ın olağanüstü gücüne sahiptir. Morioh kasabasına giderek Josuke Higashikata ile tanışır ve DIO’nun kanından gelen yeni tehditleri araştırır. Eskisi kadar saldırgan olmayan Jotaro, mantığı, stratejisi ve liderliğiyle öne çıkar. Zamanı durdurma gücü sayesinde birçok kritik anda kahramanları kurtararak Joestar soyunun mirasını sürdürür.",
+    stand: "images/star_platinum.jpeg",
+    standName: "Star Platinum"
+  },
+  {
+    name: "Jotaro Kujo",
+    part: "Stone Ocean:",
+    img: "images/jotaro6.jpeg",
+    desc: "Jotaro Kujo, Stone Ocean döneminde artık olgun ve tecrübeli bir baba figürüdür. Kızı Jolyne Cujoh’u korumak ve DIO’nun mirasını sürdüren Rahip Enrico Pucci’yi durdurmak için yeniden sahneye çıkar. Stand’ı Star Platinum hâlâ inanılmaz hız ve güç sunarken, Jotaro’nun en büyük gücü artık kararlılığı ve fedakârlığıdır. Sert ve soğukkanlı tavrının ardında ailesine duyduğu derin sevgi yatan Jotaro, Jolyne’i kurtarmak uğruna hayatını riske atar. Stone Ocean boyunca trajik ama onurlu bir figür olarak Joestar soyunun cesaretini sonuna kadar temsil eder.",
+    stand: "images/star_platinum.jpeg",
+    standName: "Star Platinum"
+  },
+  {
+    name: "Dio Brando",
+    part: "Phantom Blood:",
+    img: "images/dio1.jpeg",
+    desc: "Dio Brando, Phantom Blood döneminin başantagonistidir ve Jonathan Joestar’ın en büyük rakibidir. Fakir bir geçmişten gelen Dio, hırsı ve kibriyle Joestar ailesine sızar, sonunda taş maskesini kullanarak vampir gücü kazanır. Bu güç sayesinde insanüstü hız, dayanıklılık ve yenilenme yeteneklerine ulaşır. Amacı, ölümsüzlükle birlikte dünyayı yönetmek ve Jonathan’ı tamamen yok etmektir. Soğukkanlı zekâsı, zalimliği ve karizmatik kötülüğüyle JoJo evreninin en unutulmaz düşmanlarından biri olmuş, Joestar soyuyla süren lanetin başlangıcını oluşturmuştur.",
+    stand: "images/stone_mask.jpeg",
+    standName: "Yok (Stone Mask Kullanıcısı)"
+  },
+  {
+    name: "Lisa Lisa",
+    part: "Battle Tendency:",
+    img: "images/lisa_lisa.jpeg",
+    desc: "Lisa Lisa, Battle Tendency döneminde güçlü bir Hamon ustası ve Joseph Joestar’ın annesidir. Gerçek adı Elizabeth Joestar olan Lisa Lisa, genç yaşta Ripple (Hamon) tekniğinde ustalaşarak insanlığın kadim düşmanları olan Pillar Men’e karşı savaşır. Zarif ama disiplinli bir kişiliğe sahip olan Lisa Lisa, öğrencilerine sert ama adil bir şekilde rehberlik eder. Hamon enerjisini mükemmel bir dengeyle kontrol edebilmesi, hem saldırı hem de savunmada olağanüstü yetenekler sergilemesini sağlar. Joseph’in eğitmeni ve ilham kaynağı olarak, Joestar soyunun gücünü ve kararlılığını temsil eden efsanevi bir figür hâline gelmiştir.",
+    stand: "images/hamon.jpeg",
+    standName: "Yok (Hamon Kullanıcısı)"
+  },
+  {
+    name: "Guido Mista",
+    part: "Golden Wind:",
+    img: "images/mista.jpeg",
+    desc: "Guido Mista, Golden Wind döneminde Giorno Giovanna’nın ekibinde yer alan sadık bir müttefiktir. Neşeli, cesur ve biraz da batıl inançlı bir kişiliğe sahiptir; özellikle “4” sayısından uğursuzluk olarak korkar. Mista’nın Stand’ı Sex Pistols, altı küçük bilinçli kurşundan oluşur ve mermileri yönlendirerek hedefi zekice vurmasını sağlar. Silah kullanmadaki ustalığı ve stratejik zekâsıyla ekibin en güvenilir savaşçılarından biri olur. Giorno’ya olan sadakati ve güçlü iradesiyle Golden Wind boyunca dostluk, cesaret ve bağlılığın sembollerinden biri hâline gelmiştir.",
+    stand: "images/sex_pistols.jpeg",
+    standName: "Sex Pistols"
+  },
+  {
+    name: "Diego Brando",
+    part: "Steel Ball Run:",
+    img: "images/diego.jpeg",
+    desc: "Diego Brando, 1890’larda İngiltere’de doğmuş, Steel Ball Run döneminin başantagonistlerinden biridir ve alternate evrendeki Dio Brando’nun versiyonudur. Kurnaz, hırslı ve acımasız bir karakter olan Diego, hem yarışta hem de savaşta rakiplerini alt etmek için her yolu dener. Stand’ı The World ile zaman kontrolü ve yüksek hız-güç avantajı elde eder, böylece Johnny Joestar ve diğer yarışmacılara karşı üstünlük kurar. Diego, stratejik zekâsı ve bencilliğiyle Joestar soyunun karşısında en zorlu ve ölümcül rakiplerden biri hâline gelir.",
+    stand: "images/theworld_au.jpeg",
+    standName: "The World AU"
+  },
+  {
+    name: "Norisuke Higashikata",
+    part: "JoJolion:",
+    img: "images/norisuke.jpeg",
+    desc: "Norisuke Higashikata IV, 2000’lerde Japonya’da doğmuş, Jojolion döneminin önemli karakterlerinden biridir ve Higashikata ailesinin patriği olarak bilinir. Ailesine bağlı, kararlı ve koruyucu bir kişiliğe sahip olan Norisuke, kasabadaki toprak ve şirket işlerini yönetir. Olaylar geliştikçe ailesini ve sevdiklerini tehlikelerden korumak için stratejik kararlar alır ve Josuke Higashikata ile olan ilişkisi hikâyede kritik rol oynar. Sakin dış görünüşünün ardında, liderlik yeteneği ve kararlılığıyla Joestar mirasını sürdürür, kasabanın ve ailesinin güvenliğini garanti altına almaya çalışır.",
+    stand: "images/king_nothing.jpeg",
+    standName: "King Nothing"
+  },
+  {
+    name: "Erina Pendleton",
+    part: "Phantom Blood:",
+    img: "images/erina.jpeg",
+    desc: "Erina, Jonathan Joestar’ın çocukluk aşkı ve daha sonra eşi olan nazik, cesur bir kadındır.Dio’nun zulmüne rağmen onurunu ve nezaketini korumuş, Jonathan’a olan sevgisiyle onu her zaman desteklemiştir.Part 1’in sonunda, Jonathan’la gemideyken Dio’nun saldırısına tanık olur ama Jonathan’ın fedakarlığı sayesinde hayatta kalır.Jonathan’ın çocuğunu karnında taşıyarak kurtulur ve soyun devamını sağlar. Böylece Joestar ailesinin geleceği onunla sürer.",
+    stand: "images/standless.jpeg",
+    standName: "Yok"
+  },
+  {
+    name: "Rudol von Stroheim",
+    part: "Battle Tendency:",
+    img: "images/stroheim.jpeg",
+    desc: "Rudol von Stroheim, Battle Tendency döneminde Nazi subayı olarak ortaya çıkar ama zamanla Joseph Joestar’ın müttefiki hâline gelir. Cesur, disiplinli ve stratejik zekâsıyla öne çıkan Stroheim, Hamon enerjisini ustaca kullanır ve savaş sırasında düşmanlarına karşı üstünlük sağlar. Part 2’nin ilerleyen bölümlerinde ciddi yaralanmalar sonucu yarı-sibernetik bir bedene kavuşur; bu sayede güç, hız ve dayanıklılık kazanır. Stroheim, Hamon bilgisi ve teknolojik yetenekleriyle Pillar Men’e karşı verilen savaşta kritik bir rol oynar ve Joseph’in en güvenilir müttefiklerinden biri olur.",
+    stand: "images/hamon.jpeg",
+    standName: "Yok (Hamon Kullanıcısı ve Alman Teknolojisi)"
+  },
+  {
+    name: "Noriaki Kakyoin",
+    part: "Stardust Crusaders:",
+    img: "images/kakyoin.jpeg",
+    desc: "Noriaki Kakyoin, Stardust Crusaders döneminin önemli karakterlerinden biridir ve Jotaro Kujo’nun müttefikidir. Zeki, soğukkanlı ve sadık bir kişiliğe sahip olan Kakyoin, Stand gücü Hierophant Green ile uzun menzilli saldırılar yapabilir, düşmanlarını sarar ve stratejik avantaj sağlar. Japonya’dan Mısır’a uzanan DIO yolculuğunda Jotaro ve ekibine katılarak kritik savaşlarda rol oynar. Kakyoin, zekâsı, sadakati ve Stand kullanma yeteneğiyle ekibin vazgeçilmez bir üyesi hâline gelir ve Joestar soyunun düşmanlarına karşı mücadelesinde önemli bir katkı sunar.",
+    stand: "images/hierophant.jpeg",
+    standName: "Hierophant Green"
+  },
+  {
+    name: "Okuyasu Nijimura",
+    part: "Diamond is Unbreakable:",
+    img: "images/okuyasu.jpeg",
+    desc: "Okuyasu Nijimura, Diamond is Unbreakable döneminin önemli karakterlerinden biridir ve Josuke Higashikata’nın yakın arkadaşıdır. Sakin bir tavrı olsa da çoğu zaman saf ve komik bir kişilik sergiler; yine de cesur ve sadıktır. Stand gücü The Hand ile fiziksel alanı silerek objeleri veya düşmanları yok edebilir ve stratejik avantaj sağlar. Okuyasu, Josuke ile birlikte kasabayı korur ve Stand’ını yaratıcı şekilde kullanarak tehlikeleri bertaraf eder. Mizahi tavrı ve güçlü Stand’ı sayesinde ekibin vazgeçilmez bir üyesi hâline gelmiştir.",
+    stand: "images/the_hand.jpeg",
+    standName: "The Hand"
+  },
+  {
+    name: "Narancia Ghirga",
+    part: "Golden Wind:",
+    img: "images/narancia.jpeg",
+    desc: "Narancia Ghirga, Golden Wind döneminin önemli karakterlerinden biridir ve Bucciarati ekibinin genç üyelerindendir. Enerjik, sabırsız ve biraz da saf bir kişiliğe sahip olan Narancia, arkadaşlarına son derece bağlıdır. Stand’ı Aerosmith ile küçük ama ölümcül bir savaş uçağı kontrol eder; düşmanları tespit eder ve uzaktan yüksek hassasiyetle saldırılar yapar. Narancia, stratejik zekâsı ve cesaretiyle ekibe önemli katkılar sağlar, aksiyon ve çatışmalarda vazgeçilmez bir savaşçı hâline gelir.",
+    stand: "images/aerosmith.jpeg",
+    standName: "Aeromith"
+  },
+  {
+    name: "DIO",
+    part: "Stone Ocean:",
+    img: "images/dio6.jpeg",
+    desc: "DIO, Stone Ocean döneminde, Jonathan Joestar’ın düşmanı olarak başlayan serüveninden kalan mirasını Pucci üzerinden sürdürür. Ölümsüz vampir olarak yıllar boyunca etkisini devam ettirmiş, Part 3’te Star Platinum ve The World ile Joestar soyuna karşı savaşmış, sonra bedenini kaybetmiştir. Part 6’da DIO’nun etkisi, Enrico Pucci’nin planlarıyla yeniden hissedilir; karizması, acımasız zekâsı ve ölümcül stratejileri Joestar soyunun kahramanlarını zor durumda bırakır. DIO, taşkın hırsı ve mirasıyla, Part 6 boyunca Joestar soyunun mücadelesinde karmaşık ve ölümcül bir figür olmaya devam eder.",
+    stand: "images/the_world.jpeg",
+    standName: "The World"
+  },
+  {
+    name: "Sandman",
+    part: "Steel Ball Run:",
+    img: "images/sandman.jpeg",
+    desc: "Sandman, Steel Ball Run döneminde Güney Amerika kökenli bir savaşçı ve yarışmacıdır. Kendi kabilesi tarafından dışlanmasına rağmen, inançları ve özgürlük arayışı uğruna Steel Ball Run yarışına katılır. Stand kullanmaz; bunun yerine, inanılmaz hız, çeviklik ve doğa ile uyumlu savaş yeteneklerine sahiptir. Kumları ve çevresini ustaca kullanarak düşmanlarını alt eder, stratejik zekâsıyla dikkat çeker. Sandman, özgürlük ideali ve cesaretiyle Part 7’nin en karizmatik ve trajik karakterlerinden biri olarak öne çıkar.",
+    stand: "images/standless.jpeg",
+    standName: "Yok"
+  },
+  {
+    name: "Daiya Higashikata",
+    part: "JoJolion:",
+    img: "images/daiya.jpeg",
+    desc: "Daiya Higashikata, JoJolion döneminde Higashikata ailesinin genç üyelerinden biridir ve saf, duygusal bir kişiliğe sahiptir. Görme engeline rağmen çevresine karşı oldukça duyarlıdır ve Josuke’ye karşı samimi bir yakınlık hisseder. Stand’ı California King Bed, insanların anılarını çalma gücüne sahiptir; bu yetenek hem savunma hem de kontrol amaçlı kullanılabilir. Daiya, ailesine olan bağlılığı ve masum doğasıyla JoJolion’un dramatik yapısında duygusal bir denge oluşturur.",
+    stand: "images/king_bed.jpeg",
+    standName: "California King Bed"
   },
 ];
 

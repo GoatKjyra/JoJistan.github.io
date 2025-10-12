@@ -102,7 +102,7 @@ const characters = [
     desc: "Weather Report, Weather Report’un Stand’ıdır ve atmosferi kontrol etme gücüne sahiptir. Hava basıncını, nemi ve rüzgar akımlarını manipüle ederek yağmur, sis, hortum hatta oksijen yoğunluğunu bile değiştirebilir. Bu Stand, hem savunma hem saldırı yönünden son derece tehlikelidir; kullanıcı isterse düşmanını havasız bırakarak öldürebilir. Weather Report’un bastırılmış anıları geri döndüğünde, Stand’ının en ölümcül formu olan Heavy Weather ortaya çıkar ve gökkuşağı yoluyla insanları salyangozlara dönüştürür.",
   },
   {
-    name: "D4C (Dirty Deeds Done Dirt Cheap)",
+    name: "D4C",
     part: "Steel Ball Run:",
     img: "images/d4c.jpeg",
     desc: "D4C (Dirty Deeds Done Dirt Cheap), Funny Valentine’ın Stand gücüdür ve paralel evrenler arasında geçiş yapma yeteneğine sahiptir. Bu Stand, farklı evrenlerdeki versiyonlarını çağırabilir ve onları kontrol ederek düşmanlarını şaşırtabilir veya yok edebilir. Yakın ve uzun menzilde stratejik üstünlük sağlayan D4C, neredeyse yenilmez bir avantaj sunar. Valentine, bu Stand’i zekice kullanarak Steel Ball Run döneminde Joestar soyuna ve rakiplerine karşı mutlak üstünlük sağlamış ve yarışın kaderini kendi lehine çevirmiştir.",
@@ -112,6 +112,48 @@ const characters = [
     part: "JoJolion:",
     img: "images/paisley_park.jpeg",
     desc: "Paisley Park, Yasuho Hirose’nin Stand gücüdür ve navigasyon ve yön bulma yeteneğiyle öne çıkar. Bu Stand, elektronik cihazlarla etkileşime girerek bilgi toplama, yol bulma ve tehlikeleri önceden tespit etme becerisi sağlar. Ayrıca Yasuho’nun çevresindeki olayları kontrol etmesine ve stratejik avantaj elde etmesine yardımcı olur. Yakın ve orta menzilde kullanışlı olan Paisley Park, Jojolion döneminde Yasuho’nun zekâsını ve yaratıcılığını güçlendirmiş, onu Joestar soyunun güvenilir müttefiklerinden biri hâline getirmiştir.",
+  },
+  {
+    name: "Sex Pistols",
+    part: "Golden Wind:",
+    img: "images/sex_pistols.jpeg",
+    desc: "Sex Pistols, Guido Mista’nın Stand gücüdür ve altı küçük, bilinçli kurşundan oluşur. Her bir kurşun bağımsız hareket edebilir ve Mista’nın yönlendirmesiyle hedefi şaşırtıcı doğrulukla vurabilir. Bu Stand, hem saldırı hem de stratejik üstünlük sağlamak için idealdir; özellikle engelleri aşmada ve düşmanları şaşırtmada çok etkilidir. Yakın ve orta menzilde üstün performans gösteren Sex Pistols, Mista’nın ustalığı ve zekâsıyla birleştiğinde Golden Wind döneminde ekibin en güvenilir savaşçılarından biri hâline gelmiştir.",
+  },
+  {
+    name: "The World AU",
+    part: "Steel Ball Run:",
+    img: "images/theworld_au.jpeg",
+    desc: "The World (Diego Brando), alternate evrendeki Diego’nun Stand’ıdır ve olağanüstü hız ve güç sağlar. Bu Stand, zamanı kısa süreliğine durdurabilme yeteneğine sahiptir ve Diego’nun stratejik hamlelerini mükemmel şekilde destekler. Yakın dövüşte üstünlük sağlayan The World, Diego’nun kurnazlığı ve hırslı doğasıyla birleşerek düşmanlarına karşı ölümcül bir avantaj sunar. Steel Ball Run döneminde, Diego bu Stand’ı yarışta ve çatışmalarda ustaca kullanarak Johnny Joestar ve diğer rakiplerine karşı büyük tehdit oluşturmuştur.",
+  },
+  {
+    name: "King Nothing",
+    part: "JoJolion:",
+    img: "images/king_nothing.jpeg",
+    desc: "King Nothing, Norisuke Higashikata IV’in Stand gücüdür ve yön bulma yeteneğiyle öne çıkar. Bu Stand, kullanıcısının kasabadaki insanları ve nesneleri takip etmesine, kayıp veya hareket halindeki hedefleri tespit etmesine yardımcı olur. Hem savunma hem de stratejik amaçlar için kullanılabilen King Nothing, Norisuke’nin zekâsı ve liderlik yeteneğiyle birleşerek etkili bir araç hâline gelir. Jojolion döneminde bu Stand, Norisuke’nin kasabayı ve ailesini koruma görevinde kritik bir rol oynamasını sağlar.",
+  },
+  {
+    name: "Hierophant Green",
+    part: "Stardust Crusaders:",
+    img: "images/hierophant.jpeg",
+    desc: "Hierophant Green, Noriaki Kakyoin’in Stand gücüdür ve uzun menzilli saldırılar ile stratejik avantaj sağlar. Bu Stand, ince, esnek ve ip gibi uzayabilen yapısı sayesinde düşmanlarını sarabilir, bağlayabilir ve kontrol edebilir. Uzaktan saldırı kabiliyeti yüksek olan Hierophant Green, Kakyoin’in zekâsı ve planlama yeteneğiyle birleşerek Mısır yolculuğunda kritik savaşlarda büyük katkı sağlar. Yakın ve orta menzilde de etkili olabilen bu Stand, ekibin stratejik hamlelerinde güvenilir bir araç hâline gelmiştir.",
+  },
+  {
+    name: "The Hand",
+    part: "Diamond is Unbreakable:",
+    img: "images/the_hand.jpeg",
+    desc: "The Hand, Okuyasu Nijimura’nın Stand gücüdür ve en belirgin yeteneği, elleriyle temas ettiği alanı silerek yok etmesidir. Bu sayede duvarları, objeleri veya düşmanları anında ortadan kaldırabilir ve düşmanın stratejilerini bozar. Yakın menzilde müthiş bir saldırı gücü sunarken, Okuyasu’nun zekâsıyla birleştiğinde beklenmedik hamleler yapabilir. Diamond is Unbreakable döneminde, The Hand ekibin saldırı ve savunma stratejilerinde kritik bir rol oynayarak Okuyasu’yu kasabanın korunmasında vazgeçilmez bir üye hâline getirmiştir.",
+  },
+  {
+    name: "Aerosmith",
+    part: "Golden Wind:",
+    img: "images/aerosmith.jpeg",
+    desc: "Aerosmith, Narancia Ghirga’nın Stand gücüdür ve küçük bir savaş uçağı formundadır. Silahlarıyla düşmanlarını hassas şekilde tespit eder ve uzun menzilli saldırılar yapabilir; uçak radarları sayesinde görüş alanını genişletir. Yakın ve orta menzilde etkili olan Aerosmith, Narancia’nın stratejik zekâsı ve hızlı refleksleriyle birleştiğinde ekibin savaş yeteneklerini önemli ölçüde artırır. Golden Wind döneminde, bu Stand Narancia’yı düşmanlarına karşı hem saldırı hem de istihbarat aracı olarak vazgeçilmez hâle getirmiştir.",
+  },
+  {
+    name: "California King Bed",
+    part: "JoJolion:",
+    img: "images/king_bed.jpeg",
+    desc: "California King Bed, Daiya Higashikata’nın Stand gücüdür ve insanların anılarını çalma yeteneğine sahiptir. Bu Stand, kurbanın Daiya ile fiziksel temas kurmasıyla devreye girer ve hatıralarını, kişisel bilgilerini veya önemli olayları yavaşça siler. Anılar çalındığında, kurban o bilgiyi tamamen unutur ve Daiya bunları kendi lehine kullanabilir. Görünüşte zararsız gibi dursa da, psikolojik olarak güçlü bir silahtır. JoJolion boyunca California King Bed, Daiya’nın hem savunma hem de duygusal derinliğini yansıtan özgün bir Stand olarak öne çıkar.",
   },
 ];
 
