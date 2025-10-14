@@ -11,6 +11,10 @@
   <audio id="bg-music" src="music/jojo_theme.mp3" loop></audio>
 
   <header>
+
+    <button id="logoutBtn">🚪 Çıkış Yap</button>
+
+
     <h1> JoJo's Bizarre Adventure Stand Arşivi </h1>
 
     <div class="top-controls">
@@ -21,11 +25,10 @@
     <input type="text" id="searchInput" placeholder="Bir Stand ara..." />
   </header>
 
-  <h2>
-     <ul>
-         <li><a href="index.html">Karakter Arşivi</a></li>
-     </ul>
-  </h2>
+  <nav class="archive-nav">
+  <a href="index.html" class="nav-link">🌟 Karakter Arşivi</a>
+  </nav>
+
 
   <main>
     <div class="character-container"></div>
@@ -39,6 +42,15 @@
       <p id="popup-desc"></p>
     </div>
   </div>
+
+<script>
+  const loggedIn = localStorage.getItem("jojoLoggedIn");
+  if (loggedIn !== "true") {
+    alert("🚫 Bu sayfayı görmek için giriş yapmalısın!");
+    window.location.href = "login.html";
+  }
+</script>
+
 
   <script src="script1.js"></script>
 </body>

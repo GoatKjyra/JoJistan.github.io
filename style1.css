@@ -274,3 +274,35 @@ footer .author {
 footer p {
   margin: 0;
 }
+
+.archive-nav {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.nav-link {
+  background: linear-gradient(145deg, #5e00b3, #9b4dff);
+  color: #fff;
+  padding: 0.9rem 1.8rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  text-shadow: 0 0 8px #000;
+  box-shadow: 0 0 20px rgba(155, 77, 255, 0.5);
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+
+.nav-link:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 0 30px #b583ff, 0 0 60px #9b4dff;
+  background: linear-gradient(145deg, #8a2be2, #b266ff);
+}
+
+.nav-link:active {
+  transform: scale(0.98);
+  box-shadow: 0 0 15px #7a1fff;
+}

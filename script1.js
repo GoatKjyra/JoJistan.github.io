@@ -250,3 +250,10 @@ themeBtn.addEventListener("click", () => {
   }
 });
 
+const logoutBtn = document.getElementById("logoutBtn");
+if (logoutBtn) {
+  logoutBtn.addEventListener("click", () => {
+    localStorage.removeItem("jojoLoggedIn");
+    window.location.href = "login.html";
+  });
+}

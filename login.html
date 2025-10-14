@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JoJo Giriş Sistemi</title>
+  <link rel="stylesheet" href="style1.css">
+  <style>
+    .login-container {
+      max-width: 400px;
+      margin: 100px auto;
+      background: rgba(40,0,80,0.8);
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 0 25px #5e00b3;
+      text-align: center;
+    }
+    input {
+      width: 90%;
+      padding: 0.7rem;
+      margin: 0.6rem 0;
+      border: none;
+      border-radius: 8px;
+    }
+    button {
+      padding: 0.8rem 1.2rem;
+      border: none;
+      border-radius: 10px;
+      background: #9b4dff;
+      color: white;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    p { margin-top: 1rem; }
+    a { color: #b583ff; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h2>🌀 JoJo Stand Arşivi Girişi</h2>
+    <input type="text" id="username" placeholder="Kullanıcı adı" required>
+    <input type="password" id="password" placeholder="Şifre" required>
+    <button id="loginBtn">Giriş Yap</button>
+    <p>Hesabın yok mu? <a href="register.html">Kayıt Ol</a></p>
+  </div>
+
+  <script>
+    document.getElementById("loginBtn").addEventListener("click", () => {
+      const username = document.getElementById("username").value;
+      const password = document.getElementById("password").value;
+
+      const storedUser = JSON.parse(localStorage.getItem("jojoUser"));
+
+      if (storedUser && storedUser.username === username && storedUser.password === password) {
+        localStorage.setItem("jojoLoggedIn", "true");
+        window.location.href = "index1.html";
+      } else {
+        alert("❌ Kullanıcı adı veya şifre yanlış!");
+      }
+    });
+  </script>
+</body>
+</html>

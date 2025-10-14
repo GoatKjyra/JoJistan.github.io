@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JoJo Kayıt Ol</title>
+  <link rel="stylesheet" href="style1.css">
+  <style>
+    .register-container {
+      max-width: 400px;
+      margin: 100px auto;
+      background: rgba(40,0,80,0.8);
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 0 25px #5e00b3;
+      text-align: center;
+    }
+    input {
+      width: 90%;
+      padding: 0.7rem;
+      margin: 0.6rem 0;
+      border: none;
+      border-radius: 8px;
+    }
+    button {
+      padding: 0.8rem 1.2rem;
+      border: none;
+      border-radius: 10px;
+      background: #9b4dff;
+      color: white;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    p { margin-top: 1rem; }
+    a { color: #b583ff; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="register-container">
+    <h2>⚡ JoJo Stand Arşivi Kaydı</h2>
+    <input type="text" id="username" placeholder="Kullanıcı adı" required>
+    <input type="password" id="password" placeholder="Şifre" required>
+    <button id="registerBtn">Kayıt Ol</button>
+    <p>Zaten hesabın var mı? <a href="login.html">Giriş Yap</a></p>
+  </div>
+
+  <script>
+    document.getElementById("registerBtn").addEventListener("click", () => {
+      const username = document.getElementById("username").value;
+      const password = document.getElementById("password").value;
+
+      if (username && password) {
+        const user = { username, password };
+        localStorage.setItem("jojoUser", JSON.stringify(user));
+        alert("✅ Kayıt başarılı! Şimdi giriş yapabilirsin.");
+        window.location.href = "login.html";
+      } else {
+        alert("⚠️ Lütfen tüm alanları doldur!");
+      }
+    });
+  </script>
+</body>
+</html>
